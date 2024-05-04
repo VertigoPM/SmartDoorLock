@@ -1,0 +1,65 @@
+.card {
+  /* width: 580px; */
+  height: 350px;
+  /* border: 1px solid black; */
+  /* border-radius: 10px; */
+  /* margin-top: 50px; */
+  /* overflow: hidden; */
+}
+/*
+.card-header {
+  display: flex;
+  width: 583px;
+  height: 40px;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  background: #cfcfcf;
+}
+.card-footer {
+  position: relative;
+}
+.timeShowerOpenDoor {
+  position: absolute;
+  display: inline;
+  left: 35px;
+  top: 230px;
+  text-align: center;
+}
+.openDoorTime {
+  border-bottom: 1px solid black;
+  width: 135px;
+}
+.timeShowerWhenClose {
+  position: absolute;
+  display: inline;
+  left: 415px;
+  top: 230px;
+  text-align: center;
+}
+.WhenCloseDoorTime {
+  border-bottom: 1px solid black;
+  width: 135px;
+} */
+.card-footer {
+  height: 75px;
+}
+.timeShowerOpenDoor {
+  right: 25px;
+  text-align: center;
+}
+.timeShowerWhenClose {
+  left: 25px;
+  text-align: center;
+}
+/* button:focus {
+  transform: scale(0.9);
+} */
+button {
+  width: 70px;
+  transition: all 0.1s ease-in-out;
+}
+.doorButtons{
+  top: 90px;
+  left: 35px;
+}
